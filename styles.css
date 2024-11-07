@@ -32,6 +32,10 @@ body {
     border-radius: 5px;
 }
 
+.filter {
+    margin-bottom: 20px;
+}
+
 .list-items {
     list-style: none;
 }
@@ -41,4 +45,9 @@ body {
     justify-content: space-between;
     padding: 10px;
     border-bottom: 1px solid #ccc;
+}
+
+.list-items li.completed {
+    text-decoration: line-through;
+    color: gray;
 }
