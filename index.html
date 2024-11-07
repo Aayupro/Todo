@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>To Do List</title>
 </head>
 
@@ -15,9 +15,14 @@
             <input type="text" id="todoText" placeholder="Add your items" />
             <button id="addButton">Add</button>
         </div>
+        <div class="filter">
+            <button id="showAll">Show All</button>
+            <button id="showCompleted">Show Completed</button>
+            <button id="showPending">Show Pending</button>
+        </div>
         <ul id="list-items" class="list-items"></ul>
     </div>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
